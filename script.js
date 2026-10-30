@@ -6,6 +6,7 @@ const intro = document.getElementById("intro");
 const invitation = document.getElementById("invitation");
 
 openButton.addEventListener("click", () => {
+  audio.play();
   intro.style.transition = "opacity 0.8s ease";
   intro.style.opacity = "0";
 
