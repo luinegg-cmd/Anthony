@@ -69,7 +69,7 @@ const photos = [
     caption: "Cada día creciendo"
   },
   {
-    src: "foto4.jpg",
+    src: "foto.jpeg",
     caption: "Momentos en familia"
   },
   {
