@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#173d20">
+  <title>Anthony cumple 8 años | Minecraft</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- PANTALLA DE INICIO -->
+  <section class="intro" id="intro">
+    <div class="intro-content">
+      <p class="pixel-label">MINECRAFT WORLD</p>
+      <h1>¡HEY, AVENTURERO!</h1>
+      <p>Anthony te invita a una misión muy especial...</p>
+
+      <button class="creeper-button" id="openInvitation">
+        <span class="creeper-face">
+          <span class="eyes"></span>
+          <span class="mouth"></span>
+        </span>
+        <span class="button-text">TOCA AL CREEPER</span>
+      </button>
+
+      <p class="small-text">Presiona para desbloquear la invitación</p>
+    </div>
+  </section>
+
+  <!-- INVITACIÓN -->
+  <main id="invitation" class="hidden">
+
+    <header class="hero">
+      <div class="hero-overlay">
+        <p class="pixel-label">¡PREPÁRATE PARA LA AVENTURA!</p>
+        <h1>ANTHONY</h1>
+        <h2>¡CUMPLE 8 AÑOS!</h2>
+        <div class="diamond">◆ ◆ ◆</div>
+<div class="gallery">
+      
+        <div class="photo-frame">
+        <img  src="Foto1.jpeg"
+               alt="Cumpleaños de Anthony"></img>
+          <div class="photo-caption" id="hotoCaption">El festejado</div>
+        </div> 
+</div>
+
+        <p class="hero-message"> 
+          Has sido seleccionado para una misión épica.
+          ¡Ven a celebrar conmigo!
+        </p>
+        <a href="#detalles" class="pixel-button">ACEPTAR MISIÓN</a>
+      </div>
+    </header>
+
+    <!-- CUENTA REGRESIVA -->
+    <section class="countdown-section">
+      <h2>⛏️ CUENTA REGRESIVA ⛏️</h2>
+      <p>El mundo se prepara para la aventura</p>
+
+      <div class="countdown">
+        <div><strong id="days">00</strong><span>DÍAS</span></div>
+        <div><strong id="hours">00</strong><span>HORAS</span></div>
+        <div><strong id="minutes">00</strong><span>MINUTOS</span></div>
+        <div><strong id="seconds">00</strong><span>SEGUNDOS</span></div>
+      </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section class="gallery-section">
+      <p class="pixel-label">NUESTRO PEQUEÑO JUGADOR</p>
+      <h2>DE PEQUEÑO A GRAN AVENTURERO</h2>
+      <p class="section-description">
+        Cada año ha sido una nueva aventura.
+        ¡Mira cuánto ha crecido Anthony!
+      </p>
+
+      <div class="gallery">
+        <button class="gallery-arrow" id="prevPhoto" aria-label="Foto anterior">❮</button>
+
+        <div class="photo-frame">
+          <img id="galleryImage" src="Fondo1.jpg"
+               alt="Recuerdo de Anthony">
+          <div class="photo-caption" id="photoCaption">Mi primera aventura</div>
+        </div> 
+
+        <button class="gallery-arrow" id="nextPhoto" aria-label="Foto siguiente">❯</button>
+      </div>
+
+      <div class="gallery-dots" id="galleryDots"></div>
+    </section>
+
+    <!-- DETALLES -->
+    <section class="details-section" id="detalles">
+      <p class="pixel-label">INFORMACIÓN DE LA MISIÓN</p>
+      <h2>¡TE ESPERAMOS!</h2>
+
+      <div class="detail-card">
+        <div class="detail-icon">📅</div>
+        <h3>FECHA</h3>
+        <p>Sábado 31 de octubre de 2026</p>
+      </div>
+
+      <div class="detail-card">
+        <div class="detail-icon">⏰</div>
+        <h3>HORA</h3>
+        <p>4:00 de la tarde</p>
+      </div>
+
+      <div class="detail-card">
+        <div class="detail-icon">📍</div>
+        <h3>UBICACIÓN</h3>
+        <p>Cto. San Bartolo A Sur C707, Interior 4, San Bartolo</p>
+
+        <a class="pixel-button"
+           href="https://www.google.com/maps/place/San+Bartolo+Sur+A+704,+INFONAVIT+San+Bartolo,+72470+Heroica+Puebla+de+Zaragoza,+Pue./@18.9905947,-98.2397775,18z/data=!3m1!4b1!4m6!3m5!1s0x85cfb8bc90c5cdd3:0x35a46b82b0747668!8m2!3d18.9905947!4d-98.23849!16s%2Fg%2F11g60vwz4n?entry=ttu&g_ep=EgoyMDI2MTAyNy4wIKXMDSoASAFQAw%3D%3D"
+           target="_blank" rel="noopener">
+          VER UBICACIÓN EN MAPS
+        </a>
+      </div>
+    </section>
+
+    <!-- CONFIRMACIÓN -->
+    <section class="rsvp-section">
+      <div class="creeper-small">
+        <span class="eyes"></span>
+        <span class="mouth"></span>
+      </div>
+
+      <h2>¿ACEPTAS LA MISIÓN?</h2>
+      <p>Confirma tu asistencia por WhatsApp.</p>
+
+      <a id="whatsappButton" class="whatsapp-button"
+         href="#" target="_blank" rel="noopener">
+        <span>✆</span> CONFIRMAR ASISTENCIA
+      </a>
+    </section>
+
+    <footer>
+      <p>ANTHONY · NIVEL 8 DESBLOQUEADO</p>
+      <p>¡GRACIAS POR SER PARTE DE ESTA AVENTURA!</p>
+      <div class="footer-blocks">🟩 🟫 🟩 🟫 🟩</div>
+    </footer>
+  </main>
+    <footer>
+        <p>&copy; 2026 Invitaciones de Calidad. Diseños mágicos para momentos inolvidables.</p>
+    </footer>
+  <script src="script.js"></script>
+</body>
+</html>
