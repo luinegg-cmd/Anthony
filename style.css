@@ -67,25 +67,25 @@ footer {
 .gallery-section {
   background:
     linear-gradient(rgba(12, 30, 17, .50), rgba(12, 30, 17, .65)),
-    url("fondo4.jpg") center center / cover no-repeat;
+    url("Fondo4.jpg") center center / cover no-repeat;
 }
 
 .details-section {
   background:
     linear-gradient(rgba(12, 30, 17, .50), rgba(12, 30, 17, .65)),
-    url("fondo5.jpg") center center / cover no-repeat;
+    url("Fondo5.jpg") center center / cover no-repeat;
 }
 
 .rsvp-section {
   background:
     linear-gradient(rgba(12, 30, 17, .45), rgba(12, 30, 17, .65)),
-    url("fondo6.jpg") center center / cover no-repeat;
+    url("Fondo6.jpg") center center / cover no-repeat;
 }
 
 footer {
   background:
     linear-gradient(rgba(5, 15, 8, .55), rgba(5, 15, 8, .75)),
-    url("fondo7.jpg") center center / cover no-repeat;
+    url("Fondo7.jpg") center center / cover no-repeat;
 }
 
 /* INICIO */
